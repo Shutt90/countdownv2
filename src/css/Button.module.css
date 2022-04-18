@@ -1,0 +1,11 @@
+.button {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(to left, #780206, #061161);
+    color: white;
+    font-family: helvetica, arial;
+    box-shadow: 2px 2x black;
+    font-size: 2rem;
+}
