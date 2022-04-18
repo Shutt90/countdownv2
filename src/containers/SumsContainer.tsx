@@ -3,7 +3,7 @@ import Button from '../components/Button'
 
 function SumsContainer() {
   return (
-    <div className="container">
+    <div className="sumsContainer">
         <Button content="+"/>
         <Button content="-"/>
         <Button content="*"/>

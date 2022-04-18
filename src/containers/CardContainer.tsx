@@ -1,12 +1,7 @@
 import Card from '../components/Card'
-
+import generateNums from '../helpers/generateNums'
 
 function CardContainer(props: any) {
-
-    function generateNums(limit?: number) {
-        const checkArg = limit ? limit : 100
-        return Math.floor(Math.random() * checkArg)
-    }
 
     let numberArr: number[]
 

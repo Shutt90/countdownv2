@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Screen() {
+function Screen({value} : {value: number}) {
   return (
-    <div>Screen</div>
+    <div className="screen">{value}</div>
   )
 }
 
