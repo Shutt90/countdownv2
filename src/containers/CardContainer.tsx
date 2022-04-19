@@ -3,18 +3,18 @@ import generateNums from '../helpers/generateNums'
 
 function CardContainer(props: any) {
 
-    let numberArr: number[]
+    const largeNums: number[] = [10, 25, 50, 100];
+    const smallNums: number[] = [1,2,3,4,5,6,7,8,9] 
 
-    numberArr = [generateNums(), generateNums(), generateNums(), generateNums(), generateNums(), generateNums()]
-    
   return (
     <div className="cardContainer">
-        <Card value={numberArr[0]} />
-        <Card value={numberArr[1]} />
-        <Card value={numberArr[2]} />
-        <Card value={numberArr[3]} />
-        <Card value={numberArr[4]} />
-        <Card value={numberArr[5]} />
+        <Card value={smallNums[generateNums(smallNums.length)]} />
+        <Card value={smallNums[generateNums(smallNums.length)]} />
+        <Card value={smallNums[generateNums(smallNums.length)]} />
+        <Card value={smallNums[generateNums(smallNums.length)]} />
+        <Card value={largeNums[generateNums(largeNums.length)]} />
+        <Card value={largeNums[generateNums(largeNums.length)]} />
+
     </div>
   )
 }
