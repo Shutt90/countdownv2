@@ -14,7 +14,6 @@ function CardContainer(props: any) {
         <Card value={smallNums[generateNums(smallNums.length)]} />
         <Card value={largeNums[generateNums(largeNums.length)]} />
         <Card value={largeNums[generateNums(largeNums.length)]} />
-
     </div>
   )
 }
