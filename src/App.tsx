@@ -13,7 +13,6 @@ function App() {
   const [handAnimation, setHandAnimation] = useState<boolean>(false)
   const [handDeg, setHandDeg] = useState<number>(0)
   
-
   const hand = {
     initial: {
     },
